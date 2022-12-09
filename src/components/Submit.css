@@ -1,0 +1,61 @@
+.container{
+    border:1px solid #CDCDCD ;
+    border-radius: 2px;
+    padding: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.formBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+input,
+select{
+    outline: none;
+    border: 1px solid #CDCDCD;
+    border-radius: 4px;
+    padding: .5rem;
+    width: 100%;
+}
+p{
+    font-size: 14px;
+    color: #615f5f;
+}
+h1{
+    color: #00004D;
+    text-align: center;
+}
+button{
+    background-color: #00004D;
+    color: #f5f5f5;
+    outline: none;
+    border: 1px solid #CDCDCD;
+    border-radius: 8px;
+    padding: .7rem 0;
+    margin: .5rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 16px;
+}
+button:active{
+    box-shadow: none;
+    background-color: #02027e;
+}
+.info{
+    text-decoration: underline;
+    font-size: 12px;
+    text-align: center;
+}
+label{
+    margin-bottom: 1rem;
+}
+ .card{
+    margin-bottom: .5rem;
+ }
+ .hide{
+    display: none;
+ }
+
