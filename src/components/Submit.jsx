@@ -8,6 +8,7 @@ const Submit = () => {
     const [cardNumber, setCardNumber] = useState('')
     const [cardDate, setCardDate] = useState('')
     const [errEmpty, setErrEmpty] = useState(false)
+    // eslint-disable-next-line
     const [flag, setFlag] = useState(true)
     const [cardCVC, setCardCVC] = useState('')
     const [country, setCountry] = useState('')
